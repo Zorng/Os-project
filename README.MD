@@ -10,9 +10,7 @@ Team members:
 - Tong Vorak
 - Mony Meakputsotheara
 
-## Mini Project: File and Directory Management Program
-
-Objective:
+## Program Features
 
 1. List all files and sub-directories with detailed information of a given directory or file.
 2. Create backups of individual files and entire directories. <br>
