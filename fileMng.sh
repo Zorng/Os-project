@@ -110,49 +110,52 @@ function c6() {
     log_action "Compressed $target to ${target}.zip"
     return
 }
+
 echo "Welcome to the File Management Script!"
+while (true); do 
 
-cd ~
-echo "========================="
-echo "current path from ~"    
-echo "========================="
+    cd ~
+    echo "========================="
+    echo "current path from ~"    
+    echo "========================="
 
-echo "Choose an option:"
-echo "1. List all files and subdirectories with details"
-echo "2. Create backups of files or directories"
-echo "3. Count number of files in a directory"
-echo "4. Display disk usage of a directory"
-echo "5. Search for a file by name or extension"
-echo "6. Compress files or directories"
-echo "7. Exit"
-read -p "Enter your choice: " choice
+    echo "Choose an option:"
+    echo "1. List all files and subdirectories with details"
+    echo "2. Create backups of files or directories"
+    echo "3. Count number of files in a directory"
+    echo "4. Display disk usage of a directory"
+    echo "5. Search for a file by name or extension"
+    echo "6. Compress files or directories"
+    echo "7. Exit"
+    read -p "Enter your choice: " choice
 
 
-case $choice in
-    1)  
-        c1 
-        ;;
-    2)
-        c2
-        ;;
-    3)
-        c3
-        ;;
-    4)
-        c4
-        ;;
-    5)
-        c5
-        ;;
-    6)
-        c6
-        ;;
-    7)
-        echo "Exiting..."
-        log_action "Exited the script"
-        exit 0
-        ;;
-    *)
-        echo "Invalid choice!"
-        ;;
-esac
+    case $choice in
+        1)  
+            c1 
+            ;;
+        2)
+            c2
+            ;;
+        3)
+            c3
+            ;;
+        4)
+            c4
+            ;;
+        5)
+            c5
+            ;;
+        6)
+            c6
+            ;;
+        7)
+            echo "Exiting..."
+            log_action "Exited the script"
+            exit 0
+            ;;
+        *)
+            echo "Invalid choice!"
+            ;;
+    esac
+done
