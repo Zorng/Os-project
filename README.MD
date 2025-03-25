@@ -13,7 +13,6 @@ Team members:
 ***!!THE PROGRAM ONLY WORKS ON MACHINE THAT CAN RUN BASH SCRIPT!!
 
 ## How to install
-### For Linux
 - create a directory `bin` in `/home/*your-username*` for **Linux**, in `/Users/*your-username*` for **Mac**, in `C:\Users\*your-username*` for **Windows**
 - download `fileMng.sh` to the created `bin` directory
 - open terminal and navigate to the created 
