@@ -10,6 +10,20 @@ Team members:
 - Tong Vorak
 - Mony Meakputsotheara
 
+***!!THE PROGRAM ONLY WORKS ON MACHINE THAT CAN RUN BASH SCRIPT!!
+
+## How to install
+### For Linux
+- create a directory `bin` in `/home/*your-username*` for **Linux**, in `/Users/*your-username*` for **Mac**, in `C:\Users\*your-username*` for **Windows**
+- download `fileMng.sh` to the created `bin` directory
+- open terminal and navigate to the created 
+- add execute permssion to `fileMng.sh` via command `chmod +x fileMng.sh`
+
+## How to run the program
+- open terminal 
+- navgiate to the created  `bin` directory
+- run `bash fileMng.sh`
+
 ## Program Features
 
 1. List all files and sub-directories with detailed information of a given directory or file.
