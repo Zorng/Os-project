@@ -1,6 +1,5 @@
 #!/bin/bash
 # By Tong Vorak
-echo "testing"
 read -p "Enter the directory path: " dir
 if [ ! -e "$dir" ]; then
     echo "Error: $dir not found"
