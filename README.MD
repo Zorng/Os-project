@@ -10,7 +10,7 @@ Team members:
 - Tong Vorak
 - Mony Meakputsotheara
 
-***!!THE PROGRAM ONLY WORKS ON MACHINE THAT CAN RUN BASH SCRIPT!!
+***!!THE PROGRAM ONLY WORKS ON MACHINE THAT CAN RUN BASH SCRIPT!!***
 
 ## How to install
 - Download the zip https://github.com/Zorng/Os-project/archive/refs/heads/main.zip
