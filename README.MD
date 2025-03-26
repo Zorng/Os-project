@@ -13,15 +13,18 @@ Team members:
 ***!!THE PROGRAM ONLY WORKS ON MACHINE THAT CAN RUN BASH SCRIPT!!
 
 ## How to install
-- create a directory `bin` in `/home/*your-username*` for **Linux**, in `/Users/*your-username*` for **Mac**, in `C:\Users\*your-username*` for **Windows**
-- download `fileMng.sh` to the created `bin` directory
+- Download the zip https://github.com/Zorng/Os-project/archive/refs/heads/main.zip
+- Unzip the downloaded zip in `/home/your-username` for **Linux**, in `/Users/your-username` for **Mac**, in `C:\Users\your-username` for **Windows**
+- add program to path via command <br>
+  - For mac, run the command:  `echo "export PATH=\"\$PATH:/Users/your_username/Os-project-main/bin\"" >> ~/.zshrc` . Then, run: `source ~/.zshrc `
+  - For Windows, run the command: `echo "export PATH=\"\$PATH:/c/Users/your_username/Os-project-main/bin\"" >> ~/.bash_profile`. Then run: `source ~/.bash_profile`
+  - For Linux, run the command: `echo "export PATH=\"\$PATH:/home/your_username/Os-project-main/bin\"" >> ~/.bash_profile`. Then run: `source ~/.bash_profile`
 - open terminal and navigate to the created 
-- add execute permssion to `fileMng.sh` via command `chmod +x fileMng.sh`
+- grant permission to execute via command `chmod +x ~/Os-project-main/bin/*.sh`
 
 ## How to run the program
 - open terminal 
-- navgiate to the created  `bin` directory
-- run `bash fileMng.sh`
+- run `fileMng.sh`
 
 ## Program Features
 
@@ -34,4 +37,3 @@ Team members:
 5. Search for a file by name or extension of a given directory.
 6. Compress the given files or directories.
 7. Keep a log file of all actions performed by users in a file called script.log in the same directory where you run the program
-
