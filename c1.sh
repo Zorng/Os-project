@@ -1,16 +1,13 @@
 #!/bin/bash
 # By Tong Vorak
-function c1() {
-    cd ~
-    echo "Current diretory: $(pwd)" 
-    read -p "Enter the directory path: " dir
-    if [ ! -e "$dir" ]; then
-        echo "Error: $dir not found"
-        return
-    fi
-    ls -l "$dir"
+echo "testing"
+read -p "Enter the directory path: " dir
+if [ ! -e "$dir" ]; then
+    echo "Error: $dir not found"
     return
-}
-
-echo "executing c1"
-c1
+fi
+ls -l "$dir"
+echo "operation succeed"
+cd ~/bin
+echo "back to ~/bin"
+bash log_action.sh "Listed files in ~/$dir"
