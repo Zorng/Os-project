@@ -16,9 +16,9 @@ Team members:
 - Download the zip https://github.com/Zorng/Os-project/archive/refs/heads/main.zip
 - Unzip the downloaded zip in `/home/your-username` for **Linux**, in `/Users/your-username` for **Mac**, in `C:\Users\your-username` for **Windows**
 - add program to path via command <br>
-  - For mac, run the command:  `echo "export PATH=\"\$PATH:/Users/your_username/Os-project-main/bin\"" >> ~/.zshrc` . Then, run: `source ~/.zshrc `
-  - For Windows, run the command: `echo "export PATH=\"\$PATH:/c/Users/your_username/Os-project-main/bin\"" >> ~/.bash_profile`. Then run: `source ~/.bash_profile`
-  - For Linux, run the command: `echo "export PATH=\"\$PATH:/home/your_username/Os-project-main/bin\"" >> ~/.bash_profile`. Then run: `source ~/.bash_profile`
+  - For mac, run the command:  `echo "export PATH=\"\$PATH:/Users/$(whoami)/Os-project-main/bin\"" >> ~/.zshrc` . Then, run: `source ~/.zshrc `
+  - For Windows, run the command: `echo "export PATH=\"\$PATH:/c/Users/$(whoami)/Os-project-main/bin\"" >> ~/.bash_profile`. Then run: `source ~/.bash_profile`
+  - For Linux, run the command: `echo "export PATH=\"\$PATH:/home/$(whoami)/Os-project-main/bin\"" >> ~/.bash_profile`. Then run: `source ~/.bash_profile`
 - open terminal and navigate to the created 
 - grant permission to execute via command `chmod +x ~/Os-project-main/bin/*.sh`
 
