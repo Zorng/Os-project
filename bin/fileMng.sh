@@ -41,7 +41,8 @@ while (true); do
             ;;
         7)
             echo "Exiting..."
-            log_action "Exited the script"
+            cd ~/Os-project-main/bin
+            bash log_action.sh "Exited the script"
             exit 0
             ;;
         *)

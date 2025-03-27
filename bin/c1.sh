@@ -7,6 +7,6 @@ if [ ! -e "$dir" ]; then
 fi
 ls -l "$dir"
 echo "operation succeed"
-cd ~/bin
+cd ~/Os-project-main/bin
 echo "back to ~/bin"
 bash log_action.sh "Listed files in ~/$dir"

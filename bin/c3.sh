@@ -12,6 +12,6 @@ count=$(find "$dir" -type f | wc -l)
 echo "Number of files: $count"
 echo "operation succeed"
 
-cd ~/bin
+cd ~/Os-project-main/bin
 echo "back to ~/bin"
 bash log_action.sh "Counted $count files in ~/$dir"

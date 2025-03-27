@@ -8,6 +8,6 @@ fi
 zip -r "${target}.zip" "$target"
 echo "operation succeed"
 
-cd ~/bin
+cd ~/Os-project-main/bin
 echo "back to ~/bin"
 bash log_action.sh "Compressed $target to ${target}.zip"

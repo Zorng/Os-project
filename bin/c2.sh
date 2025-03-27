@@ -15,6 +15,6 @@ if [ ! -e "$dest" ]; then
 fi
 cp -r "$src" "$dest"
 echo "operation succeed"
-cd ~/bin
+cd ~/Os-project-main/bin
 echo "back to ~/bin"
 bash log_action.sh "Backed up ~/$src to ~/$dest"
