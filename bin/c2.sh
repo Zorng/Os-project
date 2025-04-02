@@ -13,7 +13,9 @@ if [ ! -e "$dest" ]; then
     echo "Error: ~/$dest is not a directory"
     fi
 fi
+echo "------------------Result-------------------"
 cp -r "$src" "$dest"
 echo "operation succeed"
+echo "-------------------------------------------"
 cd ~/Os-project-main/bin
 bash log_action.sh "Backed up ~/$src to ~/$dest"
