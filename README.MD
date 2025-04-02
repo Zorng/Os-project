@@ -19,7 +19,6 @@ Team members:
   - For mac, run the command:  `echo "export PATH=\"\$PATH:/Users/$(whoami)/Os-project-main/bin\"" >> ~/.zshrc` . Then, run: `source ~/.zshrc `
   - For Windows, run the command: `echo "export PATH=\"\$PATH:/c/Users/$(whoami)/Os-project-main/bin\"" >> ~/.bash_profile`. Then run: `source ~/.bash_profile`
   - For Linux, run the command: `echo "export PATH=\"\$PATH:/home/$(whoami)/Os-project-main/bin\"" >> ~/.bash_profile`. Then run: `source ~/.bash_profile`
-- open terminal and navigate to the created 
 - grant permission to execute via command `chmod +x ~/Os-project-main/bin/*.sh`
 
 ## How to run the program
