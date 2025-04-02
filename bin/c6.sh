@@ -9,5 +9,4 @@ zip -r "${target}.zip" "$target"
 echo "operation succeed"
 
 cd ~/Os-project-main/bin
-echo "back to ~/Os-project-main/bin"
 bash log_action.sh "Compressed $target to ${target}.zip"
