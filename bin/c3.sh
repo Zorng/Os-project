@@ -8,8 +8,10 @@ if [ ! -e "$dir" ]; then
     echo "Error: ~/$dir is not a directory"
     fi
 fi
+echo "------------------Result-------------------"
 count=$(find "$dir" -type f | wc -l)
 echo "Number of files: $count"
+echo "-------------------------------------------"
 echo "operation succeed"
 
 cd ~/Os-project-main/bin
