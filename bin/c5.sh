@@ -10,8 +10,10 @@ if [ ! -e "$dir" ]; then
     fi
 fi
 read -p "Enter filename or extension: " pattern
+echo "------------------Result-------------------"
 find "$dir" -name "$pattern"
 echo "operation succeed"
+echo "-------------------------------------------"
 
 cd ~/Os-project-main/bin
 bash log_action.sh "Searched for $pattern in ~/$dir"
