@@ -9,7 +9,9 @@ if [ ! -e "$dir" ]; then
         return
     fi
 fi
+echo "------------------Result-------------------"
 du -sh "$dir"
+echo "-------------------------------------------"
 echo "operation succeed"
 
 cd ~/Os-project-main/bin
