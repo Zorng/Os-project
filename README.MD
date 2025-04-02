@@ -13,6 +13,7 @@ Team members:
 ***!!THE PROGRAM ONLY WORKS ON MACHINE THAT CAN RUN BASH SCRIPT!!***
 
 ## How to install
+**Replace 'your-username' in path with your actual pc username"
 - Download the zip https://github.com/Zorng/Os-project/archive/refs/heads/main.zip
 - Unzip the downloaded zip in `/home/your-username` for **Linux**, in `/Users/your-username` for **Mac**, in `C:\Users\your-username` for **Windows**
 - add program to path via command <br>
