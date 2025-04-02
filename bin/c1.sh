@@ -5,7 +5,9 @@ if [ ! -e "$dir" ]; then
     echo "Error: $dir not found"
     return
 fi
+echo "------------------Result-------------------"
 ls -l "$dir"
 echo "operation succeed"
+echo "-------------------------------------------"
 cd ~/Os-project-main/bin
 bash log_action.sh "Listed files in ~/$dir"
