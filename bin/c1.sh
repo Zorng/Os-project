@@ -8,5 +8,4 @@ fi
 ls -l "$dir"
 echo "operation succeed"
 cd ~/Os-project-main/bin
-echo "back to ~/Os-project-main/bin"
 bash log_action.sh "Listed files in ~/$dir"
