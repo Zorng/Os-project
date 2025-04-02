@@ -14,5 +14,4 @@ find "$dir" -name "$pattern"
 echo "operation succeed"
 
 cd ~/Os-project-main/bin
-echo "back to ~/Os-project-main/bin"
 bash log_action.sh "Searched for $pattern in ~/$dir"
