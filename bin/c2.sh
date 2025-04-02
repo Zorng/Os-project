@@ -9,7 +9,7 @@ read -p "Enter backup location: " dest
 if [ ! -e "$dest" ]; then
     echo "Error: ~/$dest not found"
     return
-    if [ ! -d "dest" ]; then
+    if [ ! -d "$dest" ]; then
     echo "Error: ~/$dest is not a directory"
     fi
 fi
