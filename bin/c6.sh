@@ -6,9 +6,9 @@ if [ ! -e "$target" ]; then
     return
 fi
 echo "------------------Result-------------------"
-zip -r "${target}.zip" "$target"
+tar -czvf "${target}.tar.gz" "$target"
 echo "operation succeed"
 echo "-------------------------------------------"
 
 cd ~/Os-project-main/bin
-bash log_action.sh "Compressed $target to ${target}.zip"
+bash log_action.sh "Compressed $target to ${target}.tar.gz"
