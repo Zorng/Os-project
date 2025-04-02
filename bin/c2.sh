@@ -16,5 +16,4 @@ fi
 cp -r "$src" "$dest"
 echo "operation succeed"
 cd ~/Os-project-main/bin
-echo "back to ~/Os-project-main/bin"
 bash log_action.sh "Backed up ~/$src to ~/$dest"
