@@ -13,5 +13,4 @@ echo "Number of files: $count"
 echo "operation succeed"
 
 cd ~/Os-project-main/bin
-echo "back to ~/Os-project-main/bin"
 bash log_action.sh "Counted $count files in ~/$dir"
