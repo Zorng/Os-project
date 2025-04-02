@@ -13,6 +13,6 @@ du -sh "$dir"
 echo "operation succeed"
 
 cd ~/Os-project-main/bin
-echo "back to ~/bin"
+echo "back to ~/Os-project-main/bin"
 bash log_action.sh "Checked disk usage of ~/$dir"
     
