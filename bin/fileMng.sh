@@ -6,7 +6,7 @@ while (true); do
 
     cd ~
     echo "========================="
-    echo "current path from ~"    
+    echo "current working directory: ~"    
     echo "========================="
 
     echo "Choose an option:"
