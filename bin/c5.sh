@@ -1,5 +1,5 @@
 #!/bin/bash
-# By Mony Meakputsotheara
+# By Mony Meakputsoktheara
 read -p "Enter directory to search in: " dir
 if [ ! -e "$dir" ]; then
     echo "Error: ~/$dir not found"
