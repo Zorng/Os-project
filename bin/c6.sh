@@ -1,5 +1,5 @@
 #!/bin/bash
-# By Mony Meakputsothera
+# By Mony Meakputsoktheara
 read -p "Enter file or directory to compress: " target   
 if [ ! -e "$target" ]; then
     echo "Error: $target not found"
