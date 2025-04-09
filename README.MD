@@ -10,6 +10,8 @@ Team members:
 - Tong Vorak
 - Mony Meakputsotheara
 
+Slide Link: https://www.canva.com/design/DAGjeGQ6fd8/AljnTGHmu8RyPVrcO0LVLw/edit?continue_in_browser=true
+
 ***!!THE PROGRAM ONLY WORKS ON MACHINE THAT CAN RUN BASH SCRIPT!!***
 
 ## How to install
